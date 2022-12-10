@@ -10,8 +10,8 @@ It automatically figures out which variables hardly ever change (software versio
 
 It also looks at the set of possible value for each variable so that they can be visualized appropriately - for example, booleans are shown like this:
 
-<img width="525" alt="index_html" src="https://user-images.githubusercontent.com/84516/206877308-cb50a6f1-b19c-4869-b44e-4d520bb7551c.png">
+<img width="687" alt="index_html" src="https://user-images.githubusercontent.com/84516/206877437-167b02dc-a5f4-42b8-9d91-3630cbf4530e.png">
 
-The tool also maintains clarity on what exactly is known about the variable; ie, when exactly it was last updated. 
+The tool also maintains clarity on what exactly is known about the variable; ie, when exactly it was last updated, and displays that in a clear and concise way when you hover. (see above).
 
 The whole thing is intended as a starting point for visualizing time series data without requiring the user to click around forever until they can make sense of the data. 
