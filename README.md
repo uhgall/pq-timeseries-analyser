@@ -12,6 +12,8 @@ It also looks at the set of possible value for each variable so that they can be
 
 <img width="687" alt="index_html" src="https://user-images.githubusercontent.com/84516/206877437-167b02dc-a5f4-42b8-9d91-3630cbf4530e.png">
 
-The tool also maintains clarity on what exactly is known about the variable; ie, when exactly it was last updated, and displays that in a clear and concise way when you hover. (see above).
+Solid lines mean true, dotted lines mean false, and white space means we don't know because the state changed between two updates. 
+
+The tool also maintains clarity on what exactly is known about the variable; ie, when exactly it was last updated, and displays that in a clear and concise way when you hover on it. (see above). Solid dot / x indicate closed/open intervals. 
 
 The whole thing is intended as a starting point for visualizing time series data without requiring the user to click around forever until they can make sense of the data. 
